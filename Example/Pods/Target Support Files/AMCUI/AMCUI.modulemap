@@ -1,0 +1,6 @@
+framework module AMCUI {
+  umbrella header "AMCUI-umbrella.h"
+
+  export *
+  module * { export * }
+}

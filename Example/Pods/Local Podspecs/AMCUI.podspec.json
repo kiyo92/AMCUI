@@ -1,0 +1,22 @@
+{
+  "name": "AMCUI",
+  "version": "0.1.0",
+  "summary": "A short description of AMCUI.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Joao Marcus Dionisio Araujo/AMCUI",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Joao Marcus Dionisio Araujo": "joao_marcus92@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Joao Marcus Dionisio Araujo/AMCUI.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "AMCUI/Classes/**/*"
+}
