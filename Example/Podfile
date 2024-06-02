@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'AMCUI_Example' do
+  pod 'AMCUI', :path => '../'
+
+  target 'AMCUI_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
