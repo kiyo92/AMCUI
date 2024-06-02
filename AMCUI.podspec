@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Joao Marcus Dionisio Araujo/AMCUI'
+  s.homepage         = 'https://github.com/kiyo92/AMCUI'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Joao Marcus Dionisio Araujo' => 'joao_marcus92@hotmail.com' }
-  s.source           = { :git => 'https://github.com/Joao Marcus Dionisio Araujo/AMCUI.git', :tag => s.version.to_s }
+  s.author           = { 'kiyo92' => 'joao_marcus92@hotmail.com' }
+  s.source           = { :git => 'https://github.com/kiyo92/AMCUI.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'

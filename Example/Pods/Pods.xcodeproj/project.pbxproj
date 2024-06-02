@@ -12,7 +12,6 @@
 		74BD9464B5CB1713BA684607DC47C8A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		75D9A8113A807232DF8CE36970056523 /* Pods-AMCUI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A4BD08D4F9E373046087BF96AD9D39 /* Pods-AMCUI_Example-dummy.m */; };
 		8E5B8A1AF9D3DBFA63474FDDEA08A956 /* Pods-AMCUI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 003D8813F5C931CC00FD01A62056C333 /* Pods-AMCUI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		903C73CC20F45ED1103C22EB61101EE3 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583D5588FE79C86DB234504DC87CC26A /* ReplaceMe.swift */; };
 		9A15331164D0B32641285EB555CB5E63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		9A8FA229CB0D40C079F7690F600C9346 /* AMCUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7E90006C2F61C65443F9C852305664 /* AMCUI-dummy.m */; };
 		DDDED5D1C4D0D7637BA1ACC2CC2D9186 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -42,22 +41,21 @@
 		139B7E149AF8044B1ED847F70F7F8F04 /* Pods-AMCUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMCUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		14D90760FF4E76C897474DFC62B2CF40 /* Pods-AMCUI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AMCUI_Example.modulemap"; sourceTree = "<group>"; };
 		197CDDBC3BCF138AEF35F91A2925EBF1 /* Pods-AMCUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMCUI_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2132967FDE781535ED573E6C3665FB72 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2132967FDE781535ED573E6C3665FB72 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		218850C9EE5F09DBC8C71DA4F7A1D70A /* AMCUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMCUI.release.xcconfig; sourceTree = "<group>"; };
 		2A7DE6AEAEC0A027B32FCBC564420A6A /* Pods-AMCUI_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AMCUI_Example-Info.plist"; sourceTree = "<group>"; };
 		462D576E827CD6B7AF59806A158E40B4 /* Pods-AMCUI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AMCUI_Tests.modulemap"; sourceTree = "<group>"; };
 		4F67551145CD59D5D946DBFD6A2BDF5F /* Pods-AMCUI_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AMCUI_Tests-Info.plist"; sourceTree = "<group>"; };
-		533503E93C54AE401DA9300E870DE920 /* AMCUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AMCUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		583D5588FE79C86DB234504DC87CC26A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = AMCUI/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		533503E93C54AE401DA9300E870DE920 /* AMCUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AMCUI.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		5F7E90006C2F61C65443F9C852305664 /* AMCUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMCUI-dummy.m"; sourceTree = "<group>"; };
 		62F10650BD9B1D43BE8B6CAB1B480BA8 /* Pods-AMCUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMCUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6A17E1F4BC1E6896C3A70937B3B429F2 /* Pods-AMCUI_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AMCUI_Tests"; path = Pods_AMCUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		707A0D0F3BA9D351517E3AA9B4F9CCE6 /* AMCUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMCUI.modulemap; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		755FF3B66EC58FF819AC7DB1CB0B23A1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		755FF3B66EC58FF819AC7DB1CB0B23A1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		90ED34FACF61CA2DD7405E8ED3C80E67 /* Pods-AMCUI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AMCUI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		95C2F1C990F93C31497DDA51C55873C8 /* AMCUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMCUI-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A07958D0F86655CC1BEA16B88DA3143F /* AMCUI */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AMCUI; path = AMCUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1CDBFA4775C71FC4247649E88D8544E /* AMCUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMCUI-prefix.pch"; sourceTree = "<group>"; };
 		B5F502CA3545670A8F7E697EB80F10D7 /* Pods-AMCUI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AMCUI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -136,6 +134,13 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		6C8A06962C0C5904000C281E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		871753F5A3776CC7893BA5E000F93FD0 /* Pods-AMCUI_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,7 +170,7 @@
 		9D48C47CFBCB74990CE16471A48713F0 /* AMCUI */ = {
 			isa = PBXGroup;
 			children = (
-				583D5588FE79C86DB234504DC87CC26A /* ReplaceMe.swift */,
+				6C8A06962C0C5904000C281E /* Classes */,
 				4557039264D71F8BECEF1C0F42FF54DD /* Pod */,
 				B730D38041616E4EA1D5D365965F278C /* Support Files */,
 			);
@@ -376,7 +381,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A8FA229CB0D40C079F7690F600C9346 /* AMCUI-dummy.m in Sources */,
-				903C73CC20F45ED1103C22EB61101EE3 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -560,8 +564,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
