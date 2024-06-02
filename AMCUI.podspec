@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'kiyo92' => 'joao_marcus92@hotmail.com' }
-  s.source           = { :git => 'https://github.com/kiyo92/AMCUI.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:kiyo92/AMCUI.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.0'
