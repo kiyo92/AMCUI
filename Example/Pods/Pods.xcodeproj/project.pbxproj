@@ -9,7 +9,10 @@
 /* Begin PBXBuildFile section */
 		0012040D72B22A1D7DD64180245ACC44 /* AMCUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA4101A78224FAB96A51C710A40AD704 /* AMCUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E14773E56CED0340551974F0C3032B2 /* Pods-AMCUI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3206F53F1CE01CBAD99DB998713D822 /* Pods-AMCUI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C8A06982C0C5A7E000C281E /* DummyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A06972C0C5A7E000C281E /* DummyClass.swift */; };
+		6C8A06B72C0D6ECE000C281E /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A06AF2C0D6ECE000C281E /* ButtonView.swift */; };
+		6C8A06B82C0D6ECE000C281E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A06B12C0D6ECE000C281E /* CardView.swift */; };
+		6C8A06B92C0D6ECE000C281E /* StarRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A06B32C0D6ECE000C281E /* StarRatingView.swift */; };
+		6C8A06BA2C0D6ECE000C281E /* CodedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A06B52C0D6ECE000C281E /* CodedView.swift */; };
 		74BD9464B5CB1713BA684607DC47C8A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		75D9A8113A807232DF8CE36970056523 /* Pods-AMCUI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A4BD08D4F9E373046087BF96AD9D39 /* Pods-AMCUI_Example-dummy.m */; };
 		8E5B8A1AF9D3DBFA63474FDDEA08A956 /* Pods-AMCUI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 003D8813F5C931CC00FD01A62056C333 /* Pods-AMCUI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -51,7 +54,10 @@
 		5F7E90006C2F61C65443F9C852305664 /* AMCUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMCUI-dummy.m"; sourceTree = "<group>"; };
 		62F10650BD9B1D43BE8B6CAB1B480BA8 /* Pods-AMCUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMCUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6A17E1F4BC1E6896C3A70937B3B429F2 /* Pods-AMCUI_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AMCUI_Tests"; path = Pods_AMCUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C8A06972C0C5A7E000C281E /* DummyClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyClass.swift; sourceTree = "<group>"; };
+		6C8A06AF2C0D6ECE000C281E /* ButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		6C8A06B12C0D6ECE000C281E /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		6C8A06B32C0D6ECE000C281E /* StarRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarRatingView.swift; sourceTree = "<group>"; };
+		6C8A06B52C0D6ECE000C281E /* CodedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodedView.swift; sourceTree = "<group>"; };
 		707A0D0F3BA9D351517E3AA9B4F9CCE6 /* AMCUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMCUI.modulemap; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		755FF3B66EC58FF819AC7DB1CB0B23A1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -136,12 +142,40 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6C8A06962C0C5904000C281E /* Classes */ = {
+		6C8A06B02C0D6ECE000C281E /* Button */ = {
 			isa = PBXGroup;
 			children = (
-				6C8A06972C0C5A7E000C281E /* DummyClass.swift */,
+				6C8A06AF2C0D6ECE000C281E /* ButtonView.swift */,
 			);
-			path = Classes;
+			name = Button;
+			path = AMCUI/Button;
+			sourceTree = "<group>";
+		};
+		6C8A06B22C0D6ECE000C281E /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				6C8A06B12C0D6ECE000C281E /* CardView.swift */,
+			);
+			name = Card;
+			path = AMCUI/Card;
+			sourceTree = "<group>";
+		};
+		6C8A06B42C0D6ECE000C281E /* Rating */ = {
+			isa = PBXGroup;
+			children = (
+				6C8A06B32C0D6ECE000C281E /* StarRatingView.swift */,
+			);
+			name = Rating;
+			path = AMCUI/Rating;
+			sourceTree = "<group>";
+		};
+		6C8A06B62C0D6ECE000C281E /* CodedView */ = {
+			isa = PBXGroup;
+			children = (
+				6C8A06B52C0D6ECE000C281E /* CodedView.swift */,
+			);
+			name = CodedView;
+			path = AMCUI/CodedView;
 			sourceTree = "<group>";
 		};
 		871753F5A3776CC7893BA5E000F93FD0 /* Pods-AMCUI_Example */ = {
@@ -173,7 +207,10 @@
 		9D48C47CFBCB74990CE16471A48713F0 /* AMCUI */ = {
 			isa = PBXGroup;
 			children = (
-				6C8A06962C0C5904000C281E /* Classes */,
+				6C8A06B02C0D6ECE000C281E /* Button */,
+				6C8A06B22C0D6ECE000C281E /* Card */,
+				6C8A06B62C0D6ECE000C281E /* CodedView */,
+				6C8A06B42C0D6ECE000C281E /* Rating */,
 				4557039264D71F8BECEF1C0F42FF54DD /* Pod */,
 				B730D38041616E4EA1D5D365965F278C /* Support Files */,
 			);
@@ -388,8 +425,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C8A06B72C0D6ECE000C281E /* ButtonView.swift in Sources */,
+				6C8A06B92C0D6ECE000C281E /* StarRatingView.swift in Sources */,
+				6C8A06B82C0D6ECE000C281E /* CardView.swift in Sources */,
+				6C8A06BA2C0D6ECE000C281E /* CodedView.swift in Sources */,
 				9A8FA229CB0D40C079F7690F600C9346 /* AMCUI-dummy.m in Sources */,
-				6C8A06982C0C5A7E000C281E /* DummyClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
