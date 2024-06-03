@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AMCUI'
-  s.version          = '0.2.7'
+  s.version          = '0.2.8'
   s.summary          = 'A short description of AMCUI.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '12.0'
   s.swift_version = '5.0'
 
-  s.source_files = 'AMCUI/**/*'
+  s.source_files = '**/*'
   #s.exclude_files = 'AMCUI/**/*.{png,json}'
 
   #s.resource_bundles = {
