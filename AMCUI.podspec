@@ -31,11 +31,10 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '12.0'
   s.swift_version = '5.0'
 
-  s.source_files = 'Classes/**/*'
-
-  # s.resource_bundles = {
-  #   'AMCUI' => ['AMCUI/Assets/*.png']
-  # }
+  s.source_files = '**/*'
+  s.resource_bundles = {
+    'AMCUI' => ['**/*']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
