@@ -32,7 +32,10 @@ TODO: Add long description of the pod here.
   s.swift_version = '5.0'
 
   s.source_files = 'AMCUI/**/*'
-  #s.resources = 'AMCUI/**/*.{storyboard,xib,xcassets,json,png, jpg, jpeg, plist}'
+  s.exclude_files = 'AMCUI/**/*.{png,json}'
+  s.resource_bundles = {
+    'AMCUIResources' => ['AMCUI/**/*.{storyboard,xib,xcassets,json,png, jpg, jpeg, plist}']
+  }
 
   s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
