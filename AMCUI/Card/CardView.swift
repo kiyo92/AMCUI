@@ -27,7 +27,7 @@ public class CardView: CodedView {
         view.layer.cornerRadius = 8
         view.layer.borderColor = UIColor.black.cgColor
         view.layer.borderWidth = 2
-        view.backgroundColor = .orange
+        view.backgroundColor = .primaryColor
         return view
     }()
 

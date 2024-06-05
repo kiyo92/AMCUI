@@ -25,10 +25,7 @@ public class CodedView: UIView {
     }
 
     func didLoad() {
-        //Place your initialization code here
-
-        //I actually create & place constraints in here, instead of in
-        //updateConstraints
+        
     }
 
     public override func layoutSubviews() {

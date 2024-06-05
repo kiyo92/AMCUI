@@ -27,7 +27,7 @@ public class ButtonView: CodedView {
         button.layer.cornerRadius = 8
         button.layer.borderColor = UIColor.black.cgColor
         button.layer.borderWidth = 2
-        button.backgroundColor = .orange
+        button.backgroundColor = .primaryColor
         return button
     }()
 
